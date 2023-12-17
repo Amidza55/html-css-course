@@ -38,7 +38,7 @@
     <h5>The Basic Language of the Web: HTML</h5>
     <h6>The Basic Language of the Web: HTML</h6>
     -->
-  <header>
+  <header class="main-header">
     <h1>📘 The Code Magazine</h1>
 
 
@@ -59,7 +59,7 @@
     width="50"
     height="50"/>
 
-    <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+    <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
     
     <img src="img/post-img.jpg" 
     alt="HTML code on a screen"
@@ -115,15 +115,15 @@ Hopefully you learned something new here. See you next time!
 </article>
 
 <aside>
-  <h4>Related posts</h4>
- <ul>
+<h4>Related posts</h4>
+ <ul class="related">
     <img
     src="img/related-1.jpg"
     alt="guy typing"
     width="75"
-    width="75"/>
+    width="75" </ul>
     <a href="#7">How to Learn Web Development</a>
-  <p>By Jonas Schmedtmann</p> 
+  <p class="related-author">By Jonas Schmedtmann</p> 
  </li>
  <li>
   <img
@@ -132,7 +132,7 @@ Hopefully you learned something new here. See you next time!
   width="75"
   width="75"/>
   <a href="&">The Unknown Power of CSS</a>
-  <p>By Jim Dillon</p>
+  <p class="related-author">By Jim Dillon</p>
  </li>
  <li>
   <img
@@ -141,13 +141,15 @@ Hopefully you learned something new here. See you next time!
   width=""
   width="75"/>
 <a href="£">Why JavaScript is Awesome</a>
-  <p>By Matilda</p>
+  <p class="related-author">By Matilda</p>
  </li>
 </ul>
 </aside>
 
 <footer>
-  Copyright &copy; 2027 by The Code
-   Magazine.</footer>
+  <p id="copyright" > Copyright &copy; 2027 by The Code
+    Magazine.
+  </p>
+</footer>
   </body>
 </html>
