@@ -1,17 +1,25 @@
-h1, h2, h3, h4, p, li{
-font family: sans-serif;
-color: #444;
+*{
+  
 }
 
-h1, h2, h3 {
-  color: #1098ad
+body{
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
+}
+
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
-  color: #1098ad
 }
 h2{
   font-size: 40px;
@@ -77,3 +85,66 @@ aside{
 /* body{
   background-color: blue;
 } */
+
+/* .first-li{
+  font-weight: bold;
+} */
+
+li:first-child{
+  font-weight: bold;
+}
+
+li:last-child{
+  font-style: italic ;
+}
+
+/* li:nth-child(even) {
+  color: red;
+/* }  */
+/* Miscinception: this won't work */
+article p:first-child {
+  color: red;
+}
+
+/*Styling links  */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited{
+  /* color: #777 */
+  color:#1098ad
+}
+
+a:hover {
+  color:orangered;
+  font-weight: bold;
+  text-decoration: underline orangered ;
+}
+
+a:active {
+ background-color: black;
+ font-style: italic;
+}
+
+/* Resolving conflict */
+/* #copyright{
+color: red
+}
+
+.copyright{
+  color:blue
+}
+
+.text{
+  color: yellow
+}
+
+footer p {
+  /* color: green !important; */
+
+nav {
+  font-size: 18px;
+}
+
