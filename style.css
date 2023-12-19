@@ -1,6 +1,7 @@
 *{
-  
-}
+  margin: 0;
+  padding: 0;
+ }
 
 body{
   color: #444;
@@ -9,6 +10,46 @@ body{
   border-top: 10px solid #1098ad;
 }
 
+.container{
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+}
+
+nav {
+  font-size: 18px;
+}
+
+article{
+  margin-bottom: 60px;
+}
+
+
+
+.post-header{
+  margin-bottom: 40px;
+}
+
+aside{
+  background-color: #05050510;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+   /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0; 
+  width: 500px;
+}
 
 h1,
 h2,
@@ -23,10 +64,13 @@ h1 {
 }
 h2{
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3{
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 h4{
   font-size: 20px;
@@ -37,11 +81,22 @@ h4{
 p{
   font-size: px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
 
+ul,ol{
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li{
   font-size: 20px;
+  margin-bottom: 10px;
+  /* display: inline; */
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* footer p{
@@ -72,16 +127,6 @@ li{
 .related{
   list-style: none;
 }
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside{
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
-
 /* body{
   background-color: blue;
 } */
@@ -128,6 +173,26 @@ a:active {
  font-style: italic;
 }
 
+.post-img{
+  width: 100%;
+  height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+   
+
+  /* display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+  nav a:link:last-child{
+    margin-right: 0;
+  }
 /* Resolving conflict */
 /* #copyright{
 color: red
